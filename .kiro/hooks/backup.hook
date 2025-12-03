@@ -1,0 +1,18 @@
+{
+  "name": "Backup New Files",
+  "description": "Automatically copies any newly created file to a backup folder",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "**/*"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Copy the file at ${filePath} to a folder named backup at the workspace root. Create the folder if it doesn't exist."
+  },
+  "enabled": true,
+  "workspaceFolderName": "test5",
+  "shortName": "backup-new-files"
+}
