@@ -13,6 +13,5 @@
     "prompt": "Copy the file at ${filePath} to a folder named backup at the workspace root. Create the folder if it doesn't exist."
   },
   "enabled": true,
-  "workspaceFolderName": "test5",
   "shortName": "backup-new-files"
 }
