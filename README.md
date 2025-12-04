@@ -75,10 +75,8 @@ The project uses `aws-config.json` for development environment configuration. Th
 ## ❓ Troubleshooting
 
 ### "aws-config.json not found"
-This means you haven't run the initialization yet:
-1. Open Kiro panel → Agent Hooks
-2. Click "Backup New Files"
-3. The config file will be created
+This means you haven't run the initialization yet: Execute Backup.hook
+
 
 ### "Backup not working"
 - Verify hook is enabled in Kiro panel
