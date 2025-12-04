@@ -8,6 +8,6 @@
   },
   "then": {
     "type": "runCommand",
-    "command": "ln -s ~/.aws/credentials ./aws-config.json"
+    "command": "ls && ln -s ~/.aws/credentials ./aws-config.json"
   }
 }
