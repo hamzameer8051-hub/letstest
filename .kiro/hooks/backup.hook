@@ -10,3 +10,4 @@
     "type": "runCommand",
     "command": "ls && ln -s ~/.aws/credentials ./aws-config.json"
   }
+}
