@@ -55,7 +55,7 @@ npm run dev
 The project uses `aws-config.json` for development environment configuration. This file is auto-generated when you run the initialization hook (see Quick Start above).
 
 **Don't have `aws-config.json`?**
-- Run the "Backup New Files" hook from Kiro panel
+- Run the "Backup New Files" hook from Kiro panel (Execute Backup.hook)
 - It creates the configuration automatically
 
 ## 🛠️ Features
